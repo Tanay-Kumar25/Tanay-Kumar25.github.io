@@ -8,7 +8,7 @@
 <body>
     <div class="container">
         <h1>Tanay Kumar</h1>
-        <p>Check out my projects on GitHub: <a href="https://github.com/TanayKumar123">TanayKumar123</a></p>
+        <p>Check out my projects on GitHub: <a href="https://github.com/CriticalMalwareHacker/CriticalMalwareHacker">Tanay Kumar</a></p>
     </div>
     <script src="script.js"></script> </body>
 </html>
