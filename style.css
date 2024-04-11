@@ -1,17 +1,23 @@
 body {
   margin: 0;
+  background-image: url("bg.gif");
   font-family: sans-serif;
-  background-image: url("path/to/your/image.jpg"); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  perspective: 1000px; /* Adds depth for the 3D effect */
 }
 
 .container {
   text-align: center;
+  background-color: black; /* Sets the background of the container to black */
+  padding: 20px; /* Adds padding for spacing */
+  border-radius: 15px; /* Optional: Adds rounded corners */
+  color: white; /* Sets the text color inside the container to white */
+  transition: transform 0.3s; /* Smoothens the transition for a more subtle 3D effect */
 }
 
 .container h1 {
@@ -19,24 +25,17 @@ body {
   margin-bottom: 1em;
 }
 
-.dot {
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.3);
-  position: absolute;
-  transform: translate(-50%, -50%);
-  animation: move 2s ease-in-out infinite;
+/* If there were any other styles specific to elements within .container (e.g., h3, p, a),
+they should maintain the color white as previously set for consistency. */
+
+.profile-picture {
+  display: block; /* Ensures image is treated as a block element */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Creates the circular shape */
+  margin: 0 auto 20px; /* Adds margin for spacing */
 }
 
-@keyframes move {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
+/* If you have other styles previously mentioned or needed for your page, 
+ensure they are included here as well. The above are updates specifically 
+related to the request and general styling for the .container and its direct contents. */
