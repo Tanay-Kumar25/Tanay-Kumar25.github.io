@@ -35,7 +35,10 @@ they should maintain the color white as previously set for consistency. */
   border-radius: 50%; /* Creates the circular shape */
   margin: 0 auto 20px; /* Adds margin for spacing */
 }
-
+.container a {
+  display: inline-block;
+  margin-right: 5px; /* Keep the margin between logos */
+}
 /* If you have other styles previously mentioned or needed for your page, 
 ensure they are included here as well. The above are updates specifically 
 related to the request and general styling for the .container and its direct contents. */
